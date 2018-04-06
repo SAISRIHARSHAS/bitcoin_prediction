@@ -1,4 +1,5 @@
 from math import sqrt
+import numpy as np
 from numpy import concatenate
 from matplotlib import pyplot
 import pandas as pd
@@ -9,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import LSTM
-import numpy as np
+
 import datetime
 from pytz import timezone
 est = timezone('US/Eastern')
